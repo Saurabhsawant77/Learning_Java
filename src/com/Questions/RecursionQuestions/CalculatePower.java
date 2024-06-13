@@ -15,6 +15,7 @@ public class CalculatePower {
         if(n==0){
             return 1;
         }
+
         int halfpowersquare = optimizedpowerofxton(x,n/2);
         int halfPower = halfpowersquare * halfpowersquare;
 
