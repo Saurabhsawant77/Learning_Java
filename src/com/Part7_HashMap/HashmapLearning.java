@@ -31,8 +31,11 @@ public class HashmapLearning {
 
 
         Set<String> keys = hm.keySet();
+
+        int i =0;
         for (String keyy : keys){
             System.out.println("NEW method "+keyy + " " + hm.get(keyy));
+            System.out.println("NEW method Valuesss" + hm.values().toString());
         }
 
         System.out.println("-----------------------------------------------------------------");
